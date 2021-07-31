@@ -1,0 +1,56 @@
+body{
+    overflow-x: hidden;
+}
+
+#mainT{
+    border:10px solid transparent;
+    border-image: url("./images/hearts-border.png") 30 round;
+
+    box-shadow: 10px 10px 20px black;
+}
+
+#content{
+    border-radius: 20px;
+    border-top: 20px solid rgb(0, 34, 187);
+    box-shadow: 10px 10px 20px black;
+}
+
+#journey{
+    margin-top: 200px;
+}
+
+.line{
+    width: 100px;
+    height: 10px;
+}
+
+#journey{
+    position: relative;
+    width: 100%;
+}
+
+#journey1{
+    height: 500px;
+    background: url("./images/Ann.jpg") no-repeat scroll;
+    opacity: 0.3;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#journey2{
+    position: absolute;
+    width: 100%;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.col-md-4 img{
+    border: 10px solid blue;
+    border-radius: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    box-shadow: 10px 10px 20px black;
+}
